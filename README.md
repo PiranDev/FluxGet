@@ -84,7 +84,18 @@ FluxGet is **freeware with proprietary, closed-source desktop application code**
 
 FluxGet is free for everyone. If you'd like to help support its ongoing development, optional cryptocurrency donations are welcome. **Donations never unlock features and are not required to use the app.**
 
-**[View donation addresses and supported networks →](DONATE.md)**
+### Donation addresses
+
+| Currency | Network | Wallet address |
+|---|---|---|
+| **Bitcoin (BTC)** | Bitcoin mainnet | `bc1qyme5cr8t5spvl97fcyznh7y4e7ml8u5nnlw75q` |
+| **GRAM** | TON | `UQAVp0kW4Ht4XJ1tBJmnlE_rZC_XpEDdRxqfiHbrxqNrmFNf` |
+| **USDT** | TRON (TRC20) | `TML5YJfYqnEpNWeGx7k9TF7EytzVKHSCus` |
+| **USDT** | BNB Smart Chain (BEP20) | `0xDdD467f8AE4203D91cC7c668C7Ee4613c1d9A972` |
+
+> **Important:** Send only the matching currency using the exact network shown above. Cryptocurrency transfers are generally irreversible. Verify the address and network before sending.
+
+For full details, see **[DONATE.md](DONATE.md)**.
 
 ---
 
