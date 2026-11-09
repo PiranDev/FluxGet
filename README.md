@@ -10,7 +10,8 @@
 [![Freeware](https://img.shields.io/badge/License-Freeware-24a148)](#license-and-distribution)
 [![Stable](https://img.shields.io/badge/Status-Stable-24a148)](https://github.com/PiranDev/FluxGet/releases/latest)
 
-**[Download FluxGet](https://github.com/PiranDev/FluxGet/releases/latest)** · [Release Notes](https://github.com/PiranDev/FluxGet/releases) · [Official Telegram Channel](https://t.me/FluxGetOfficial) · [Report an Issue](https://github.com/PiranDev/FluxGet/issues)
+**[Download FluxGet](https://github.com/PiranDev/FluxGet/releases/latest)** · **[Install FluxGet for Firefox](https://addons.mozilla.org/en-US/firefox/addon/fluxget-download-manager/)** · [Release Notes](https://github.com/PiranDev/FluxGet/releases) · [Official Telegram Channel](https://t.me/FluxGetOfficial) · [Report an Issue](https://github.com/PiranDev/FluxGet/issues)
+
 
 </div>
 
