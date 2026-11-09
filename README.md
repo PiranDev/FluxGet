@@ -4,101 +4,70 @@
 
 # FluxGet
 
-### Fast transfers. Full control.
-
-**A free, modern download manager for Windows.**
+**A free download manager for Windows.**
 
 [![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)](https://github.com/PiranDev/FluxGet/releases/latest)
 [![Freeware](https://img.shields.io/badge/License-Freeware-24a148)](#license-and-distribution)
 [![Stable](https://img.shields.io/badge/Status-Stable-24a148)](https://github.com/PiranDev/FluxGet/releases/latest)
 
-**[Download FluxGet](https://github.com/PiranDev/FluxGet/releases/latest)** · [Report an Issue](https://github.com/PiranDev/FluxGet/issues) · [Official Telegram Channel](https://t.me/FluxGetOfficial)
+**[Download FluxGet](https://github.com/PiranDev/FluxGet/releases/latest)** · [Release Notes](https://github.com/PiranDev/FluxGet/releases) · [Official Telegram Channel](https://t.me/FluxGetOfficial) · [Report an Issue](https://github.com/PiranDev/FluxGet/issues)
 
 </div>
 
 ---
 
-## Why FluxGet?
-
-FluxGet helps you organize downloads in one place, with a straightforward interface and useful controls for everyday transfers. It is **free to use**, with **no subscriptions or premium tier**.
-
-- **Multi-connection downloading** — Supports parallel connections where the remote server allows them; speed depends on your connection and the server.
-- **Pause and resume** — Resume supported transfers without starting again.
-- **Queues and scheduling** — Plan downloads and manage multiple files.
-- **Browser integration** — Optional integration for Firefox, Chrome and Edge through separately distributed extensions.
-- **Flexible download list** — Resize or hide columns and monitor progress and status.
-- **Light and dark themes** — Choose the interface you prefer.
-- **Update channels** — Check GitHub releases through Stable or Beta channels, with manual installation.
-
 ## Choose your edition
 
-| | **FluxGet Core** | **FluxGet Media** |
-|---|---|---|
-| Standard downloads, pause/resume, queues and scheduling | ✅ | ✅ |
-| Browser integration | ✅ | ✅ |
-| Optional media-tool functionality | — | ✅ |
-| Free to use | ✅ | ✅ |
+**FluxGet Core** handles everyday file downloads. **FluxGet Media** includes every Core feature and adds video, audio, and torrent downloads.
 
-**[Browse downloads and release notes](https://github.com/PiranDev/FluxGet/releases)**
+| Feature | Core | Media |
+| --- | :---: | :---: |
+| Direct file downloads with parallel connections where supported | ✓ | ✓ |
+| Pause and resume supported downloads, with speed limits | ✓ | ✓ |
+| Add multiple links from the clipboard | ✓ | ✓ |
+| Download queues and scheduling | ✓ | ✓ |
+| Optional browser integration | ✓ | ✓ |
+| Video downloads from supported sites, with quality selection | — | ✓ |
+| Audio-only downloads from supported sites | — | ✓ |
+| Torrent downloads with individual file selection | — | ✓ |
 
-Download either `FluxGet-*-Core-Windows-x64.exe` or `FluxGet-*-Media-Windows-x64.exe` from a release's **Assets** section. The Media edition may require optional third-party tools for certain functions; those tools are **not bundled** with the executable.
-
-> **Beta notice:** Early releases are intended for testing and feedback. Features may have bugs or behave differently across Windows systems.
-
-## Screenshots
-
-Screenshots will be added after the public release UI is finalized. The application is not pictured here to avoid displaying an outdated or illustrative interface as a real screenshot.
+Both editions are free to use. Some Media features require optional third-party tools, distributed separately from the FluxGet executable.
 
 ## Getting started
 
-1. Open the **[Releases](https://github.com/PiranDev/FluxGet/releases)** page and choose Core or Media.
-2. Download the Windows x64 EXE from **Assets**.
-3. Compare the file's SHA-256 against the corresponding release checksum file before running it.
-4. Run FluxGet, set your download folder, and add a URL.
-5. If needed, configure browser integration using a publisher-authorized extension when available.
+1. Open the [latest stable release](https://github.com/PiranDev/FluxGet/releases/latest).
+2. Under **Assets**, download either `FluxGet-*-Core-Windows-x64.exe` or `FluxGet-*-Media-Windows-x64.exe`.
+3. Compare the EXE's SHA-256 hash with the matching entry in the release's `SHA256SUMS.txt` file.
+4. Run FluxGet, choose your download folder, and select **Add URL** to start your first download.
 
-**Requirements:** Windows 10 or 11, 64-bit. The two editions share a local service port; run only one edition at a time. Current executables may be unsigned; exercise caution with warnings and verify the source and checksum.
+**System requirements:** Windows 10 or 11, 64-bit. Core and Media share a local service port, so run one edition at a time.
+
+## Browser integration
+
+FluxGet offers optional browser integration for Firefox, Chrome, and Edge through separately distributed extensions. Follow the setup instructions for your browser when connecting the extension to the desktop app.
 
 ## Updates
 
-Open **Settings → Advanced → Update Channel** and select:
+Go to **Settings → Advanced → Update Channel** to choose a channel.
 
-| Channel | What it checks |
-|---|---|
-| **Stable** (default) | Newer published stable releases |
-| **Beta** | Newer prereleases and stable releases |
+| Channel | Releases included |
+| --- | --- |
+| **Stable** (default) | Published stable releases |
+| **Beta** | Prereleases and stable releases |
 
-FluxGet checks the [official GitHub repository](https://github.com/PiranDev/FluxGet/releases) when configured and can display an update notice. **Updates are not installed automatically.** When there is no published stable release yet, the Stable channel may have nothing to report.
+FluxGet can notify you when an update is available. You choose when to download and run the new version.
 
-## Feedback and security
+## Feedback, privacy, and security
 
-Found a bug or have a suggestion? Use **[GitHub Issues](https://github.com/PiranDev/FluxGet/issues)**, and include your Windows version, FluxGet edition and reproduction steps. Please do **not** include private download URLs, credentials or tokens in public reports.
-
-For security-sensitive issues, read **[SECURITY.md](SECURITY.md)** first. For data handling details, read **[PRIVACY.md](PRIVACY.md)**.
+- **Bug reports and feature requests:** Open a [GitHub issue](https://github.com/PiranDev/FluxGet/issues). For bugs, include your Windows version, FluxGet version and edition, and steps to reproduce the issue. Keep private download links, credentials, and tokens out of public reports.
+- **Release announcements:** Follow the [official FluxGet Telegram channel](https://t.me/FluxGetOfficial).
+- **Privacy:** See [PRIVACY.md](./PRIVACY.md).
+- **Security reports:** See [SECURITY.md](./SECURITY.md) for reporting instructions.
 
 ## License and distribution
 
-FluxGet is **freeware with proprietary, closed-source desktop application code** — it is **not open source**. This public repository contains documentation and release information, **not** the application's private source code. Third-party tools and components remain subject to their own licenses; see **[Third-party notices](THIRD_PARTY_NOTICES.md)**.
+FluxGet is proprietary freeware. The desktop application is closed source. This public repository hosts documentation and release downloads. Third-party components are covered by their own licenses. See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).
 
-© FluxGet contributors / publisher. All rights reserved for proprietary components, subject to applicable law and third-party rights.
+## Support FluxGet
 
-## ❤️ Support FluxGet
-
-FluxGet is free for everyone. If you'd like to help support its ongoing development, optional cryptocurrency donations are welcome. **Donations never unlock features and are not required to use the app.**
-
-### Donation addresses
-
-| Currency | Network | Wallet address |
-|---|---|---|
-| **Bitcoin (BTC)** | Bitcoin mainnet | `bc1qyme5cr8t5spvl97fcyznh7y4e7ml8u5nnlw75q` |
-| **GRAM** | TON | `UQAVp0kW4Ht4XJ1tBJmnlE_rZC_XpEDdRxqfiHbrxqNrmFNf` |
-| **USDT** | TRON (TRC20) | `TML5YJfYqnEpNWeGx7k9TF7EytzVKHSCus` |
-| **USDT** | BNB Smart Chain (BEP20) | `0xDdD467f8AE4203D91cC7c668C7Ee4613c1d9A972` |
-
-> **Important:** Send only the matching currency using the exact network shown above. Cryptocurrency transfers are generally irreversible. Verify the address and network before sending.
-
-For full details, see **[DONATE.md](DONATE.md)**.
-
----
-
-<div align="center"><sub>Made for Windows · Free to use · <a href="https://github.com/PiranDev/FluxGet/releases">Official downloads</a></sub></div>
+FluxGet is free to use. Donations are optional and do not unlock features. See [DONATE.md](./DONATE.md) if you would like to support development.
