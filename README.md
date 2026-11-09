@@ -1,7 +1,6 @@
-<p align="center">
-  <img src="./FluxGet-Logo-White.png" alt="FluxGet" width="360">
-</p>
 <div align="center">
+
+<img src="./FluxGet-Logo-White.png" alt="FluxGet logo" width="360">
 
 # FluxGet
 
@@ -9,11 +8,11 @@
 
 **A free, modern download manager for Windows.**
 
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)](https://github.com/PiranDev/FluxGet/releases)
+[![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white)](https://github.com/PiranDev/FluxGet/releases/latest)
 [![Freeware](https://img.shields.io/badge/License-Freeware-24a148)](#license-and-distribution)
-[![Beta](https://img.shields.io/badge/Status-Public%20Beta-f59e0b)](https://github.com/PiranDev/FluxGet/releases)
+[![Stable](https://img.shields.io/badge/Status-Stable-24a148)](https://github.com/PiranDev/FluxGet/releases/latest)
 
-**[Download FluxGet](https://github.com/PiranDev/FluxGet/releases)** · **[Report an Issue](https://github.com/PiranDev/FluxGet/issues)**
+**[Download FluxGet](https://github.com/PiranDev/FluxGet/releases/latest)** · [Report an Issue](https://github.com/PiranDev/FluxGet/issues) · [Official Telegram Channel](https://t.me/FluxGetOfficial)
 
 </div>
 
