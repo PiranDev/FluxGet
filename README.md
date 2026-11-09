@@ -68,6 +68,17 @@ FluxGet can notify you when an update is available. You choose when to download 
 
 FluxGet is proprietary freeware. The desktop application is closed source. This public repository hosts documentation and release downloads. Third-party components are covered by their own licenses. See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).
 
-## Support FluxGet
+## ❤️ Support FluxGet
 
-FluxGet is free to use. Donations are optional and do not unlock features. See [DONATE.md](./DONATE.md) if you would like to support development.
+FluxGet is free to use. If you’d like to support its development, optional cryptocurrency donations are welcome. Donations do not unlock features.
+
+| Currency | Network | Wallet address |
+| --- | --- | --- |
+| **Bitcoin (BTC)** | Bitcoin mainnet | `bc1qyme5cr8t5spvl97fcyznh7y4e7ml8u5nnlw75q` |
+| **GRAM** | TON | `UQAVp0kW4Ht4XJ1tBJmnlE_rZC_XpEDdRxqfiHbrxqNrmFNf` |
+| **USDT** | TRON (TRC20) | `TML5YJfYqnEpNWeGx7k9TF7EytzVKHSCus` |
+| **USDT** | BNB Smart Chain (BEP20) | `0xDdD467f8AE4203D91cC7c668C7Ee4613c1d9A972` |
+
+> Verify the currency, network, and wallet address before sending.
+
+For more details, see [DONATE.md](./DONATE.md).
