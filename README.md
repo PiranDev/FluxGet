@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="./FluxGet-Logo-White-1600x1000.png" alt="FluxGet" width="360">
+</p>
 <div align="center">
 
 # FluxGet
